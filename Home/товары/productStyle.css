@@ -1,3 +1,38 @@
+.inBlock{
+	display: flex;
+	width: 100%;
+	align-items: center;
+	justify-content: space-around;
+	align-content: flex-start;
+}
+
+
+.inBlock input{
+	width: 40%;
+	height: 5vh;
+	border-radius: 10px;
+}
+
+.inBlock button{
+	width: 7%;
+	height: 5vh;
+	border: solid black;
+	border-radius: 10px;
+	background-color: white;
+}
+.inBlock button:hover{
+	background-color: #2ABCBC; 
+ 	border-color: white;
+}
+.inBlock button:active {
+	background-color: #5dd9c2; 	
+}
+
+.inBlock a img{
+	width: 40%;
+	height: 20vh;
+}
+
 .subcategory-list {
     display: none; 
 }
@@ -7,7 +42,7 @@
 
 .content {
     display: grid;
-    grid-template-columns: 15% 80%;
+    grid-template-columns: 15% 80%;			
     height: 100vh;
   }
 .contLeft{
